@@ -1,0 +1,18 @@
+metadata:
+  name: quarkus-dev-env
+projects:
+  - name: helloworld
+    source:
+      location: 'https://github.com/kameshsampath/hello-world.git'
+      type: git
+components:
+  - id: eclipse/che-theia/next
+    type: cheEditor
+    alias: theia-editor
+  - id: redhat/java/latest
+    type: chePlugin
+  - id: redhat/vscode-yaml/latest
+    type: chePlugin
+  - id: ms-kubernetes-tools/vscode-kubernetes-tools/latest
+    type: chePlugin
+apiVersion: 1.0.0

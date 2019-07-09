@@ -4,9 +4,11 @@
 	"appPort": 8080,
 	"extensions": [
 		"vscjava.vscode-java-pack",
-		"redhat.vscode-xml"
+		"redhat.vscode-xml",
+		"ms-kubernetes-tools/vscode-kubernetes-tools"
 	],
 	"settings":{
+		"workbench.colorTheme": "Quiet Light",
 		"java.home": "/opt/graalvm",		
 		"terminal.integrated.shell.linux": "/bin/bash"
 	}

@@ -10,4 +10,10 @@ The requirements to run the demo
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Visual Studio Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview)
 
-## WIP- Screencast
+## Using minikube
+
+WIP
+
+## Screencast
+
+WIP
